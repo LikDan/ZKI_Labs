@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Selector: View {
-    var stageSelect: (Int) -> Void
+    private let stageSelect: (Int) -> Void
 
     init(stageSelect: @escaping (Int) -> ()) {
         self.stageSelect = stageSelect

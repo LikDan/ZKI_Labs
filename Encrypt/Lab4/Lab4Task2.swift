@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct Lab4Task2: View {
+    init(back: @escaping () -> ()) {
+        self.back = back
+    }
+
+    private let back: () -> Void
 
     @State private var word: String = "ATTACKATDAWN"
     @State private var encrypted: String = ""
@@ -17,15 +22,18 @@ struct Lab4Task2: View {
 
     var body: some View {
         VStack {
+            HStack {
+                Button("Back", action: back)
+                Spacer()
+            }
             TextField("Word", text: $word)
             TextField("Encryption", text: $encrypted)
             TextField("Key", text: $key)
             TextField("Key2", text: $key2)
-            Button("Encrypt", action: encrypt)
-            Button("Decrypt", action: decrypt)
+            Button("Encrypt", action: encrypt).buttonStyle(.bordered)
+            Button("Decrypt", action: decrypt).buttonStyle(.bordered)
             Text(res)
         }
-                .buttonStyle(.bordered)
                 .padding()
     }
 
@@ -72,6 +80,7 @@ struct Lab4Task2: View {
 
         res = decrypted
     }
+
 }
 
 extension Array {
