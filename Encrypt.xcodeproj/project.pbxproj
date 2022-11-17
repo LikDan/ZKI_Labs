@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B99EDE9D291D81C4009388D2 /* EncryptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EDE9C291D81C4009388D2 /* EncryptApp.swift */; };
-		B99EDE9F291D81C4009388D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EDE9E291D81C4009388D2 /* ContentView.swift */; };
+		B99EDE9F291D81C4009388D2 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EDE9E291D81C4009388D2 /* Selector.swift */; };
 		B99EDEA1291D81C5009388D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99EDEA0291D81C5009388D2 /* Assets.xcassets */; };
 		B99EDEA4291D81C5009388D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99EDEA3291D81C5009388D2 /* Preview Assets.xcassets */; };
+		B99EDEAB291D95AE009388D2 /* Lab4Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EDEAA291D95AE009388D2 /* Lab4Task2.swift */; };
+		B9DBFDCB29267DD600C25BD0 /* Lab4Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DBFDCA29267DD600C25BD0 /* Lab4Task1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B99EDE99291D81C4009388D2 /* Encrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99EDE9C291D81C4009388D2 /* EncryptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptApp.swift; sourceTree = "<group>"; };
-		B99EDE9E291D81C4009388D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B99EDE9E291D81C4009388D2 /* Selector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selector.swift; sourceTree = "<group>"; };
 		B99EDEA0291D81C5009388D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99EDEA3291D81C5009388D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B99EDEAA291D95AE009388D2 /* Lab4Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4Task2.swift; sourceTree = "<group>"; };
+		B9DBFDCA29267DD600C25BD0 /* Lab4Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4Task1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				B99EDE9C291D81C4009388D2 /* EncryptApp.swift */,
-				B99EDE9E291D81C4009388D2 /* ContentView.swift */,
+				B99EDE9E291D81C4009388D2 /* Selector.swift */,
 				B99EDEA0291D81C5009388D2 /* Assets.xcassets */,
 				B99EDEA2291D81C5009388D2 /* Preview Content */,
+				B9DBFDCA29267DD600C25BD0 /* Lab4Task1.swift */,
+				B99EDEAA291D95AE009388D2 /* Lab4Task2.swift */,
 			);
 			path = Encrypt;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B99EDE9F291D81C4009388D2 /* ContentView.swift in Sources */,
+				B99EDEAB291D95AE009388D2 /* Lab4Task2.swift in Sources */,
+				B9DBFDCB29267DD600C25BD0 /* Lab4Task1.swift in Sources */,
+				B99EDE9F291D81C4009388D2 /* Selector.swift in Sources */,
 				B99EDE9D291D81C4009388D2 /* EncryptApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
