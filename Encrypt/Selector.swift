@@ -17,10 +17,13 @@ struct Selector: View {
     var body: some View {
         Menu("Select...") {
             Button("Lab4 Task1") {
-                stageSelect(41)
+                stageSelect(4_1)
             }
             Button("Lab4 Task2") {
-                stageSelect(42)
+                stageSelect(4_2)
+            }
+            Button("Lab6 Task1") {
+                stageSelect(6_1)
             }
         }
     }

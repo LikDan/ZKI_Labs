@@ -17,8 +17,9 @@ struct EncryptApp: App {
             }
 
             switch stage {
-            case 41: Lab4Task1(back: back)
-            case 42: Lab4Task1(back: back)
+            case 4_1: Lab4Task1(back: back)
+            case 4_2: Lab4Task1(back: back)
+            case 6_1: Lab5Task1(back: back)
             default: Selector { i in
                 stage = i
             }
