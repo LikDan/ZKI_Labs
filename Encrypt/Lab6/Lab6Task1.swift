@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Lab5Task1: View {
+struct Lab6Task1: View {
     init(back: @escaping () -> ()) {
         self.back = back
     }
@@ -28,6 +28,10 @@ struct Lab5Task1: View {
     @State private var b: Int = 0
 
     var body: some View {
+        HStack {
+            Button("Back", action: back)
+            Spacer()
+        }
         Text(key)
         Text(key2)
         TextField("Number", text: $num)

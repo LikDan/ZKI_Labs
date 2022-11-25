@@ -14,6 +14,7 @@
 		BE4523936D29EB01D2BB9555 /* Lab6Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE452A515E890DC93AD2F69D /* Lab6Task1.swift */; };
 		BE45274DB625FC8BCF57925D /* Lab4Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE452FB76E5BB103FDD672AC /* Lab4Task2.swift */; };
 		BE4529FEECD7ECAFE6557347 /* Lab4Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE452632025274F9852F5D63 /* Lab4Task1.swift */; };
+		BE452B2ED3747871FE2F02A8 /* Lab7Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4520EE84922E672645AD40 /* Lab7Task1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B99EDE9E291D81C4009388D2 /* Selector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selector.swift; sourceTree = "<group>"; };
 		B99EDEA0291D81C5009388D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99EDEA3291D81C5009388D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE4520EE84922E672645AD40 /* Lab7Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lab7Task1.swift; sourceTree = "<group>"; };
 		BE452632025274F9852F5D63 /* Lab4Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lab4Task1.swift; sourceTree = "<group>"; };
 		BE452A515E890DC93AD2F69D /* Lab6Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lab6Task1.swift; sourceTree = "<group>"; };
 		BE452FB76E5BB103FDD672AC /* Lab4Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lab4Task2.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B99EDEA2291D81C5009388D2 /* Preview Content */,
 				BE45298C1691405312B30193 /* Lab4 */,
 				BE4521F5C716C2B2B2EEACB1 /* Lab6 */,
+				BE452698DA55F20A4EE6ECE3 /* Lab7 */,
 			);
 			path = Encrypt;
 			sourceTree = "<group>";
@@ -81,6 +84,14 @@
 				BE452A515E890DC93AD2F69D /* Lab6Task1.swift */,
 			);
 			path = Lab6;
+			sourceTree = "<group>";
+		};
+		BE452698DA55F20A4EE6ECE3 /* Lab7 */ = {
+			isa = PBXGroup;
+			children = (
+				BE4520EE84922E672645AD40 /* Lab7Task1.swift */,
+			);
+			path = Lab7;
 			sourceTree = "<group>";
 		};
 		BE45298C1691405312B30193 /* Lab4 */ = {
@@ -167,6 +178,7 @@
 				BE45274DB625FC8BCF57925D /* Lab4Task2.swift in Sources */,
 				BE4529FEECD7ECAFE6557347 /* Lab4Task1.swift in Sources */,
 				BE4523936D29EB01D2BB9555 /* Lab6Task1.swift in Sources */,
+				BE452B2ED3747871FE2F02A8 /* Lab7Task1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

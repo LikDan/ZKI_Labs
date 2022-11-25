@@ -25,6 +25,9 @@ struct Selector: View {
             Button("Lab6 Task1") {
                 stageSelect(6_1)
             }
+            Button("Lab7 Task1") {
+                stageSelect(7_1)
+            }
         }
     }
 }
